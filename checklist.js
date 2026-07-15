@@ -40,7 +40,7 @@ const checklistData = [
     category: "🥩 食材・飲み物",
     items: [
       { name: "クーラーボックス", note: "" },      
-      { name: "クーラーBOXスタンド", note: "" }
+      { name: "クーラーBOXスタンド", note: "" },
       { name: "保冷剤", note: "" },
       { name: "飲み物", note: "" },
       { name: "食材", note: "" },
