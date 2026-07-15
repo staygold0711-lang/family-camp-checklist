@@ -13,22 +13,34 @@
 <div class="container">
 
     <header>
-        <h1>🏕 家族キャンプリスト</h1>
-        <p class="subtitle">忘れ物をゼロにする。</p>
+
+        <div class="header-top">
+            <div>
+                <h1>🏕 家族キャンプリスト</h1>
+                <p class="subtitle">忘れ物をゼロにする。</p>
+            </div>
+
+            <button id="resetButton" class="reset-button">
+                🔄 リセット
+            </button>
+        </div>
 
         <div class="progress-area">
+
             <div class="progress-text">
-                <span id="progressText">0 / 0</span>
+                <span id="progressText">0 / 0 (0%)</span>
             </div>
 
             <div class="progress-bar">
                 <div id="progressFill"></div>
             </div>
+
         </div>
+
     </header>
 
     <main id="checklist">
-        <!-- JavaScriptで表示 -->
+        <!-- JavaScriptで生成 -->
     </main>
 
 </div>
