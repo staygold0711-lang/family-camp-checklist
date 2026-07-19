@@ -43,14 +43,15 @@ const checklistData = [
   {
     category: "🔥 焚き火",
     items: [
-      { name: "焚き火台", note: "" },
+      { name: "焚き火台", note: "ファイヤーディスク" },
       { name: "焚き火シート", note: "" },
       { name: "薪", note: "現地購入でも可" },
       { name: "着火剤", note: "" },
       { name: "火ばさみ", note: "" },
       { name: "耐熱グローブ", note: "" },
-      { name: "火吹き棒", note: "" },
-      { name: "火消し壺", note: "" }
+      { name: "ナイフ", note: "ファルクニーベン" },
+      { name: "火起こしキット", note: "メタルマッチ、火吹き棒、麻紐" },
+      { name: "炭", note: "現地購入でも可" }
     ]
   },
 
