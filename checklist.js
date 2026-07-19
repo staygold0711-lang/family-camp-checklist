@@ -10,42 +10,60 @@ const checklistData = [
   },
 
   {
-    category: "🪑 リビング",
+    category: "🍳 リビング・キッチン",
     items: [
       { name: "テーブル", note: "IGT" },
-      { name: "チェア", note: "3脚" },
-      { name: "ランタン", note: "" },
-      { name: "ランタンスタンド", note: "" }
-    ]
-  },
+      { name: "チェア", note: "4脚（焚き火用含む）" },
 
-  {
-    category: "🍳 キッチン",
-    items: [
       { name: "バーナー", note: "コールマン2バーナー" },
       { name: "ガス缶", note: "CB缶、OD缶" },
       { name: "スティックバーナー", note: "AS2OV" },
+
       { name: "調理器具", note: "フライパン、鍋、トングなど" },
       { name: "包丁・まな板", note: "" },
       { name: "食器", note: "" },
       { name: "箸・スプーン", note: "" },
       { name: "紙皿・紙コップ", note: "" },
+
       { name: "ゴミ袋スタンド", note: "" },
-      { name: "ゴミ袋", note: "" },
-      { name: "クーラーBOX", note: "" }
+      { name: "ゴミ袋", note: "" }
+    ]
+  },
+
+  {
+    category: "💡 灯り",
+    items: [
+      { name: "LEDランタン", note: "" },
+      { name: "ガスランタン", note: "" },
+      { name: "ランタンスタンド", note: "" },
+      { name: "ヘッドライト", note: "" }
+    ]
+  },
+
+  {
+    category: "🔥 焚き火",
+    items: [
+      { name: "焚き火台", note: "" },
+      { name: "焚き火シート", note: "" },
+      { name: "薪", note: "現地購入でも可" },
+      { name: "着火剤", note: "" },
+      { name: "火ばさみ", note: "" },
+      { name: "耐熱グローブ", note: "" },
+      { name: "火吹き棒", note: "" },
+      { name: "火消し壺", note: "" }
     ]
   },
 
   {
     category: "🥩 食材・飲み物",
     items: [
-      { name: "クーラーボックス", note: "" },      
+      { name: "クーラーボックス", note: "" },
       { name: "クーラーBOXスタンド", note: "" },
       { name: "保冷剤", note: "" },
       { name: "飲み物", note: "" },
       { name: "食材", note: "" },
-      { name: "調味料", note: "" },      
-      { name: "カゴ", note: "" }
+      { name: "調味料", note: "" },
+      { name: "買い物カゴ", note: "" }
     ]
   },
 
@@ -66,7 +84,7 @@ const checklistData = [
       { name: "寝間着", note: "" },
       { name: "タオル", note: "" },
       { name: "サンダル", note: "" },
-      { name: "帽子", note: "" },      
+      { name: "帽子", note: "" },
       { name: "防寒着", note: "" }
     ]
   },
@@ -93,12 +111,13 @@ const checklistData = [
   },
 
   {
-    category: "💡 電子機器",
+    category: "🔋 電子機器",
     items: [
       { name: "スマホ充電器", note: "" },
       { name: "モバイルバッテリー", note: "" },
       { name: "延長コード", note: "" },
-      { name: "サーキュレーター", note: "" }
+      { name: "サーキュレーター", note: "" },
+      { name: "乾電池", note: "単3・単4など" }
     ]
   },
 
